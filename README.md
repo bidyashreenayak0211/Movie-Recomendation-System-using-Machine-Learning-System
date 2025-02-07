@@ -109,6 +109,8 @@ genre_counts.columns = ['Genre', 'Count']
 fig = px.bar(genre_counts, x='Genre', y='Count', title='Movie Genre Distribution', width=1000, height=500)
 fig.show()
 ```
+![Genre_Distribution](https://github.com/user-attachments/assets/cd1b8014-70f2-4e17-80b2-c273709fdb4c)
+
 **Explanation:**
 - Expands the **genre** column (since movies have multiple genres).
 - Counts the occurrences of each genre.
@@ -123,6 +125,8 @@ plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis('off')
 plt.show()
 ```
+![WordCloud](https://github.com/user-attachments/assets/a562f459-d51b-41c4-b9bf-254c32390088)
+
 **Explanation:**
 - Combines all movie overviews into a single text block.
 - Generates a **word cloud** to highlight frequently used words.
